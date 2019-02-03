@@ -1,5 +1,7 @@
 # stunning-broccoli
 
+This is a test project that I use for studying, prototyping and testing stuff.
+
 ## Project setup
 ```
 npm install

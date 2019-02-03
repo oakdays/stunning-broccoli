@@ -1,22 +1,16 @@
 <template>
   <div id="app">
-    <wrapper>
-      <styled-title>:)</styled-title>
-      <styled-button>Click me</styled-button>
-    </wrapper>
+    <arena />
   </div>
 </template>
 
 <script>
-import { Wrapper, StyledTitle } from './components/styled'
-import StyledButton from './components/styled/StyledButton'
+import Arena from './components/Arena'
 
 export default {
   name: 'App',
   components: {
-    Wrapper,
-    StyledTitle,
-    StyledButton
+    Arena
   }
 }
 </script>
