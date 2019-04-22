@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <arena />
+    <base-button>Test</base-button>
+    <base-button>Test</base-button>
+    <base-button>Test</base-button>
   </div>
 </template>
 
 <script>
-import Arena from './components/Arena'
+import { BaseButton } from './components/styled/Base'
 
 export default {
-  name: 'App',
   components: {
-    Arena
+    BaseButton
   }
 }
 </script>
